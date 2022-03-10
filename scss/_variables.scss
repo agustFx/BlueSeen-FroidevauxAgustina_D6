@@ -1,0 +1,37 @@
+$colorOne: lightcyan; 
+$colortwo: white;
+$colorThree: steelblue;
+$colorFour: dimgray;
+$colorFive: lightsteelblue;
+$colorSix: lightslategrey; 
+$bgColor: slategray;
+$font: 'Varela Round';
+
+body{
+	font-family: $font;
+	background-image: url(../assets/img/bg-5.JPEG);
+	background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+header{
+	background-color: $bgColor;
+}
+
+.index-encabezado{
+	color: $colortwo;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	    
+	h1{
+	    font-size: 3.5rem;
+	}
+
+	h2{
+	    font-size: 1.5rem;
+	}
+}
+
+.index-buttons, .index-card{
+	padding-bottom: 2rem;
+}
